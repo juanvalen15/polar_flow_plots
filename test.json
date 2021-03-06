@@ -1,0 +1,203 @@
+{
+  "exportVersion": "1.3",
+  "name": "",
+  "deviceId": "88356329",
+  "note": "",
+  "latitude": 51.926775,
+  "longitude": 4.472716666666667,
+  "startTime": "2021-02-28T11:16:59.745",
+  "stopTime": "2021-02-28T14:56:00.122",
+  "timeZoneOffset": 60,
+  "distance": 39380.30078125,
+  "duration": "PT13133.883S",
+  "maximumHeartRate": 170,
+  "averageHeartRate": 132,
+  "kiloCalories": 2147,
+  "physicalInformationSnapshot": {
+    "dateTime": "2021-02-28T16:08:01.000",
+    "sex": "MALE",
+    "birthday": "1989-04-10",
+    "height, cm": 173.0,
+    "weight, kg": 68.0,
+    "vo2Max": 61,
+    "maximumHeartRate": 189,
+    "restingHeartRate": 55,
+    "aerobicThreshold": 142,
+    "anaerobicThreshold": 170,
+    "sleepGoal": "PT28800S",
+    "functionalThresholdPower": 272
+  },
+  "exercises": [
+    {
+      "startTime": "2021-02-28T11:16:59.790",
+      "stopTime": "2021-02-28T14:55:53.673",
+      "timezoneOffset": 60,
+      "duration": "PT13133.883S",
+      "distance": 39380.30078125,
+      "sport": "CYCLING",
+      "latitude": 51.926775,
+      "longitude": 4.472716666666667,
+      "ascent": 35.052425384521484,
+      "descent": 20.879053115844727,
+      "kiloCalories": 2147,
+      "heartRate": {
+        "min": 84,
+        "avg": 132,
+        "max": 170
+      },
+      "speed": {
+        "avg": 10.794148445129395,
+        "max": 33.74873352050781
+      },
+      "cadence": {
+        "avg": 81,
+        "max": 112
+      },
+      "zones": {
+        "heart_rate": [
+          {
+            "lowerLimit": 95,
+            "higherLimit": 113,
+            "inZone": "PT3591S",
+            "zoneIndex": 1
+          },
+          {
+            "lowerLimit": 113,
+            "higherLimit": 132,
+            "inZone": "PT1716S",
+            "zoneIndex": 2
+          },
+          {
+            "lowerLimit": 132,
+            "higherLimit": 151,
+            "inZone": "PT1954S",
+            "zoneIndex": 3
+          },
+          {
+            "lowerLimit": 151,
+            "higherLimit": 170,
+            "inZone": "PT4302S",
+            "zoneIndex": 4
+          },
+          {
+            "lowerLimit": 170,
+            "higherLimit": 189,
+            "inZone": "PT27S",
+            "zoneIndex": 5
+          }
+        ],
+        "speed": [
+          {
+            "lowerLimit": 10.0,
+            "higherLimit": 20.0,
+            "inZone": "PT1226.881S",
+            "distance": 5616.0,
+            "zoneIndex": 1
+          },
+          {
+            "lowerLimit": 20.0,
+            "higherLimit": 30.0,
+            "inZone": "PT4944.494S",
+            "distance": 32938.2,
+            "zoneIndex": 2
+          },
+          {
+            "lowerLimit": 30.0,
+            "higherLimit": 40.0,
+            "inZone": "PT37.998S",
+            "distance": 339.3,
+            "zoneIndex": 3
+          },
+          {
+            "lowerLimit": 40.0,
+            "higherLimit": 50.0,
+            "inZone": "PT0S",
+            "distance": 0.0,
+            "zoneIndex": 4
+          },
+          {
+            "lowerLimit": 50.0,
+            "higherLimit": 399.0,
+            "inZone": "PT0S",
+            "distance": 0.0,
+            "zoneIndex": 5
+          }
+        ]
+      },
+      "laps": [
+        {
+          "lapNumber": 0,
+          "duration": "PT2863.759S",
+          "splitTime": "PT2863.759S",
+          "distance": 14676.2998046875,
+          "heartRate": {
+            "min": 94,
+            "avg": 144,
+            "max": 169
+          },
+          "speed": {
+            "avg": 18.450227737426758,
+            "max": 32.628562927246094
+          },
+          "cadence": {
+            "avg": 81,
+            "max": 102
+          }
+        },
+        {
+          "lapNumber": 1,
+          "duration": "PT10270.124S",
+          "splitTime": "PT13133.883S",
+          "distance": 24704.0,
+          "heartRate": {
+            "min": 84,
+            "avg": 129,
+            "max": 170
+          },
+          "speed": {
+            "avg": 8.659525871276855,
+            "max": 33.74873352050781
+          },
+          "cadence": {
+            "avg": 80,
+            "max": 112
+          }
+        }
+      ],
+      "samples": {
+        "speed": [
+          {
+            "dateTime": "2021-02-28T11:16:59.790"
+          },
+          {
+            "dateTime": "2021-02-28T11:17:10.790",
+            "value": 0.0
+          },
+          {
+            "dateTime": "2021-02-28T11:17:11.790",
+            "value": 2.55
+          },
+          {
+            "dateTime": "2021-02-28T11:17:12.790",
+            "value": 3.59
+          },
+          {
+            "dateTime": "2021-02-28T14:55:48.790",
+            "value": 13.14
+          }
+        ]
+      }
+    }
+  ],
+  "periodData": {
+    "type": "TRAINING_SESSION",
+    "start": "2021-02-28T11:16:59.745+01:00",
+    "end": "2021-02-28T14:55:59.840+01:00",
+    "attributes": [
+      {
+        "key": "READONLY_IS_TEST",
+        "textValue": "false"
+      }
+    ]
+  }
+}
